@@ -1,9 +1,9 @@
 1. Tools Installed
-Cursor IDE
-OpenAI Codex Integration
-Node.js (v24.17.0 LTS)
-Anthropic Claude Code CLI (@anthropic-ai/claude-code)
-Git Bash/Desktop Engine
+-Cursor IDE
+-OpenAI Codex Integration
+-Node.js (v24.17.0 LTS)
+-Anthropic Claude Code CLI (@anthropic-ai/claude-code)
+-Git Bash/Desktop Engine
 
 2. Steps Completed
 - Initial Setup & Authentication
