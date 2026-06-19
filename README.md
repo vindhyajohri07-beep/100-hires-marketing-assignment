@@ -1,30 +1,40 @@
 1. Tools Installed
--Cursor IDE
--OpenAI Codex Integration
--Node.js (v24.17.0 LTS)
--Anthropic Claude Code CLI (@anthropic-ai/claude-code)
--Git Bash/Desktop Engine
+   
+a) Cursor IDE
+
+b) OpenAI Codex Integration
+
+c) Node.js (v24.17.0 LTS)
+
+d) Anthropic Claude Code CLI (@anthropic-ai/claude-code)
+
+e) Git Bash/Desktop Engine
 
 2. Steps Completed
 - Initial Setup & Authentication
 Visited the official website at cursor.com and downloaded the standard Windows installation binaries.
 Opened the newly installed IDE and logged in directly using my GitHub credentials (vindhyajohri07-beep), successfully linking my developer profile to the workspace.
+
 - Cleaning & Reinstalling the IDE
 Uninstalled the previous broken build of Cursor using standard Windows uninstallation protocols.
 Manually deleted residual configuration and cache folders from %appdata%\Cursor and %userprofile%\.cursor.
 Downloaded the latest stable .exe installer directly from cursor.com and ran it to get a clean editor environment.
+
 - Setting Up the AI Engines
 Bypassed the empty extensions marketplace and opened the master system settings via the Gear Icon (⚙️) (or Ctrl + Shift + J).
 Headed to the internal Models panel, located the core GPT/Codex toggles, and switched them to Active.
 Opened the chat sidebar with Ctrl + L and verified that the model dropdown menu correctly targeted the active OpenAI processing pool.
+
 - Installing Node.js & Claude Code
 Downloaded the stable prebuilt installer package from nodejs.org and installed it to C:\Program Files\nodejs\.
 Opened the built-in Cursor terminal (Ctrl + \``) and ran npm install -g @anthropic-ai/claude-code`.
 Ran the command claude in the console and followed the generated login link to authenticate the Anthropic environment.
--GitHub Integration & Environment Sync
+
+- GitHub Integration & Environment Sync
 Logged into GitHub via the browser and created a new public repository named 100-hires-marketing-assignment with an initialized README.md file.
 Installed Git from git-scm.com so Cursor could translate version control commands, then restarted Cursor to update environment maps.
 Ran git clone <repository-url> in the terminal to pull the repo down locally, then loaded it into the editor via File > Open Folder.
+
 - Documenting & Committing the Project
 Switched the workspace view back to the standard file explorer using Ctrl + Shift + E, clicked the New File icon, and named it README.md.
 Pasted this deployment log into the editor workspace and saved the file using Ctrl + S.
